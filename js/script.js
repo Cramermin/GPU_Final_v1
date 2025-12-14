@@ -84,27 +84,25 @@ async function updatePriceChart(gpuName) {
     const chartCanvas = document.getElementById('priceChart');
     const ctx = chartCanvas.getContext('2d');
     
-    // 获取历史价格数据
-    const priceHistory = await getGPUPriceHistory(gpuName);
+    // 使用显卡的history数据
+    const priceHistory = selectedGPU.history || [];
     const fixedDates = [
         '12月8日', '12月9日', '12月10日', 
         '12月11日', '12月12日', '12月13日', '12月14日'
     ];
     const labels = [...fixedDates];
-    const prices = [];
+    const prices = [...priceHistory];
     
-    // 填充价格数据
-    for (let i = 0; i < 7; i++) {
-        // 如果有历史数据则使用，否则生成模拟数据
-        if (priceHistory && priceHistory[i] !== undefined) {
-            prices.push(priceHistory[i]);
-        } else {
-            // 生成基于基础价格的随机波动
-            const basePrice = selectedGPU.base_price;
-            const randomFactor = 0.95 + Math.random() * 0.1; // 0.95 到 1.05 之间的随机数
-            prices.push(parseFloat((basePrice * randomFactor).toFixed(2)));
-        }
+    // 确保价格数据完整
+    for (let i = prices.length; i < 7; i++) {
+        // 生成基于基础价格的随机波动
+        const basePrice = selectedGPU.base_price;
+        const randomFactor = 0.95 + Math.random() * 0.1; // 0.95 到 1.05 之间的随机数
+        prices.push(parseFloat((basePrice * randomFactor).toFixed(2)));
     }
+    
+    // 更新选中的行
+    updateSelectedRow(gpuName);
     
     // 销毁现有的图表（如果存在）
     if (priceChart) {
@@ -161,14 +159,21 @@ async function updatePriceChart(gpuName) {
 
 // 更新表格中的选中行
 function updateSelectedRow(gpuName) {
+    // 移除所有行的选中状态
     const rows = document.querySelectorAll('#gpuTableBody tr');
     rows.forEach(row => {
-        if (row.textContent.includes(gpuName)) {
-            row.classList.add('table-active');
-            // 滚动到选中的行
-            row.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        } else {
-            row.classList.remove('table-active');
-        }
+        row.classList.remove('table-active');
     });
+    
+    // 添加选中状态到当前行
+    const selectedRow = Array.from(rows).find(row => {
+        const productCell = row.querySelector('td:first-child');
+        return productCell && productCell.textContent.trim() === gpuName;
+    });
+    
+    if (selectedRow) {
+        selectedRow.classList.add('table-active');
+        // 滚动到选中的行
+        selectedRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
 }

@@ -56,19 +56,43 @@ function getBuyingAdvice(currentPrice, basePrice, priceHistory) {
 
 // 模拟数据（当API不可用时使用）
 function getMockData() {
-    return [
-        {
-            product: 'GeForce RTX 4090',
-            price: 1699.99,
-            base_price: 1599.99,
-            change: 6.25
+    const mockData = [
+        { 
+            product: 'NVIDIA RTX 4090', 
+            price: 15999, 
+            base_price: 12999, 
+            change: 23.1,
+            history: [13999, 14499, 14999, 15499, 15799, 15999, 15999]
         },
-        {
-            product: 'GeForce RTX 4080',
-            price: 1199.99,
-            base_price: 1199.99,
-            change: 0.0
+        { 
+            product: 'NVIDIA RTX 4080', 
+            price: 8499, 
+            base_price: 7999, 
+            change: 6.3,
+            history: [7999, 7999, 8099, 8199, 8299, 8399, 8499]
         },
-        // 可以添加更多模拟数据...
+        { 
+            product: 'NVIDIA RTX 4070 Ti', 
+            price: 6499, 
+            base_price: 6499, 
+            change: 0,
+            history: [6499, 6499, 6499, 6499, 6499, 6499, 6499]
+        },
+        { 
+            product: 'AMD RX 7900 XTX', 
+            price: 7999, 
+            base_price: 7999, 
+            change: 0,
+            history: [7999, 7999, 7999, 7999, 7999, 7999, 7999]
+        },
+        { 
+            product: 'AMD RX 7900 XT', 
+            price: 7399, 
+            base_price: 7499, 
+            change: -1.3,
+            history: [7499, 7499, 7499, 7499, 7499, 7499, 7399]
+        }
     ];
+
+    return mockData;
 }
