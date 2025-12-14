@@ -1,0 +1,76 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 2rem 0;
+    background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
+    color: white;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+}
+
+.card {
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+    margin-bottom: 2rem;
+}
+
+.card-header {
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #e3e6f0;
+    padding: 1rem 1.25rem;
+}
+
+.table th {
+    background-color: #f8f9fc;
+    border-top: none;
+    font-weight: 600;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.price-up {
+    color: #1cc88a;
+    font-weight: bold;
+}
+
+.price-down {
+    color: #e74a3b;
+    font-weight: bold;
+}
+
+.price-same {
+    color: #5a5c69;
+    font-weight: bold;
+}
+
+.recommend-buy {
+    color: #1cc88a;
+    font-weight: bold;
+}
+
+.recommend-wait {
+    color: #f6c23e;
+    font-weight: bold;
+}
+
+.recommend-avoid {
+    color: #e74a3b;
+    font-weight: bold;
+}
+
+#priceChart {
+    width: 100%;
+    height: 400px;
+}
+
+footer {
+    padding: 2rem 0;
+    color: #6c757d;
+}

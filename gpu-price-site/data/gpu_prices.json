@@ -1,0 +1,320 @@
+[
+  {
+    "product": "GeForce RTX 4090",
+    "price": 1699.0,
+    "base_price": 1599.0,
+    "change": 6.25
+  },
+  {
+    "product": "GeForce RTX 4080 Super",
+    "price": 982.0,
+    "base_price": 982.0,
+    "change": 0.0
+  },
+  {
+    "product": "GeForce RTX 4080",
+    "price": 1029.0,
+    "base_price": 989.0,
+    "change": 4.04
+  },
+  {
+    "product": "GeForce RTX 4070 Ti Super",
+    "price": 749.0,
+    "base_price": 749.0,
+    "change": 0.0
+  },
+  {
+    "product": "GeForce RTX 4070 Ti",
+    "price": 699.0,
+    "base_price": 649.0,
+    "change": 7.7
+  },
+  {
+    "product": "GeForce RTX 4070 Super",
+    "price": 569.0,
+    "base_price": 569.0,
+    "change": 0.0
+  },
+  {
+    "product": "GeForce RTX 4070",
+    "price": 544.0,
+    "base_price": 514.0,
+    "change": 5.84
+  },
+  {
+    "product": "GeForce RTX 4060 Ti 16GB",
+    "price": 439.0,
+    "base_price": 419.0,
+    "change": 4.77
+  },
+  {
+    "product": "GeForce RTX 4060 Ti",
+    "price": 374.0,
+    "base_price": 329.0,
+    "change": 13.68
+  },
+  {
+    "product": "GeForce RTX 4060",
+    "price": 279.0,
+    "base_price": 279.0,
+    "change": 0.0
+  },
+  {
+    "product": "GeForce RTX 3090 Ti",
+    "price": 1465.0,
+    "base_price": 1005.0,
+    "change": 45.77
+  },
+  {
+    "product": "GeForce RTX 3090",
+    "price": 949.0,
+    "base_price": 949.0,
+    "change": 0.0
+  },
+  {
+    "product": "GeForce RTX 3080 Ti",
+    "price": 920.0,
+    "base_price": 899.0,
+    "change": 2.34
+  },
+  {
+    "product": "GeForce RTX 3080 12GB",
+    "price": 930.0,
+    "base_price": 869.0,
+    "change": 7.02
+  },
+  {
+    "product": "GeForce RTX 3080",
+    "price": 761.0,
+    "base_price": 749.0,
+    "change": 1.6
+  },
+  {
+    "product": "GeForce RTX 3070 Ti",
+    "price": 499.0,
+    "base_price": 399.0,
+    "change": 25.06
+  },
+  {
+    "product": "GeForce RTX 3070",
+    "price": 464.0,
+    "base_price": 354.0,
+    "change": 31.07
+  },
+  {
+    "product": "GeForce RTX 3060 Ti",
+    "price": 391.0,
+    "base_price": 299.0,
+    "change": 30.77
+  },
+  {
+    "product": "GeForce RTX 3060 12GB",
+    "price": 288.0,
+    "base_price": 249.0,
+    "change": 15.66
+  },
+  {
+    "product": "GeForce RTX 3050",
+    "price": 209.0,
+    "base_price": 169.0,
+    "change": 23.67
+  },
+  {
+    "product": "Radeon RX 7900 XTX",
+    "price": 899.0,
+    "base_price": 879.0,
+    "change": 2.28
+  },
+  {
+    "product": "Radeon RX 7900 XT",
+    "price": 699.0,
+    "base_price": 689.0,
+    "change": 1.45
+  },
+  {
+    "product": "Radeon RX 7900 GRE",
+    "price": 540.0,
+    "base_price": 539.0,
+    "change": 0.19
+  },
+  {
+    "product": "Radeon RX 7800 XT",
+    "price": 479.0,
+    "base_price": 479.0,
+    "change": 0.0
+  },
+  {
+    "product": "Radeon RX 7700 XT",
+    "price": 379.0,
+    "base_price": 379.0,
+    "change": 0.0
+  },
+  {
+    "product": "Radeon RX 7600 XT",
+    "price": 319.0,
+    "base_price": 319.0,
+    "change": 0.0
+  },
+  {
+    "product": "Radeon RX 7600",
+    "price": 259.0,
+    "base_price": 239.0,
+    "change": 8.37
+  },
+  {
+    "product": "Radeon RX 6950 XT",
+    "price": 549.0,
+    "base_price": 549.0,
+    "change": 0.0
+  },
+  {
+    "product": "Radeon RX 6900 XT",
+    "price": 699.0,
+    "base_price": 529.0,
+    "change": 32.14
+  },
+  {
+    "product": "Radeon RX 6800 XT",
+    "price": 489.0,
+    "base_price": 439.0,
+    "change": 11.39
+  },
+  {
+    "product": "Radeon RX 6800",
+    "price": 359.0,
+    "base_price": 359.0,
+    "change": 0.0
+  },
+  {
+    "product": "Radeon RX 6750 XT",
+    "price": 299.0,
+    "base_price": 294.0,
+    "change": 1.7
+  },
+  {
+    "product": "Radeon RX 6700 XT",
+    "price": 439.0,
+    "base_price": 299.0,
+    "change": 46.82
+  },
+  {
+    "product": "Radeon RX 6700 10GB",
+    "price": NaN,
+    "base_price": 229.0,
+    "change": NaN
+  },
+  {
+    "product": "Radeon RX 6650 XT",
+    "price": 219.0,
+    "base_price": 209.0,
+    "change": 4.78
+  },
+  {
+    "product": "Radeon RX 6600 XT",
+    "price": 234.0,
+    "base_price": 219.0,
+    "change": 6.85
+  },
+  {
+    "product": "Radeon RX 6600",
+    "price": 189.0,
+    "base_price": 174.0,
+    "change": 8.62
+  },
+  {
+    "product": "Radeon RX 6500 XT",
+    "price": 139.0,
+    "base_price": 129.0,
+    "change": 7.75
+  },
+  {
+    "product": "Radeon RX 6400",
+    "price": 119.0,
+    "base_price": 119.0,
+    "change": 0.0
+  },
+  {
+    "product": "Intel Arc A770 16GB",
+    "price": 279.0,
+    "base_price": 249.0,
+    "change": 12.05
+  },
+  {
+    "product": "Intel Arc A770 8GB",
+    "price": NaN,
+    "base_price": 199.0,
+    "change": NaN
+  },
+  {
+    "product": "Intel Arc A750",
+    "price": 199.0,
+    "base_price": 169.0,
+    "change": 17.75
+  },
+  {
+    "product": "Intel Arc A580",
+    "price": 164.0,
+    "base_price": 164.0,
+    "change": 0.0
+  },
+  {
+    "product": "Intel Arc A380",
+    "price": 109.0,
+    "base_price": 99.0,
+    "change": 10.1
+  },
+  {
+    "product": "GeForce RTX 5090",
+    "price": 3000.0,
+    "base_price": 2000.0,
+    "change": 50.0
+  },
+  {
+    "product": "GeForce RTX 5070 Ti",
+    "price": 930.0,
+    "base_price": 750.0,
+    "change": 24.0
+  },
+  {
+    "product": "GeForce RTX 5070",
+    "price": 523.0,
+    "base_price": 523.0,
+    "change": 0.0
+  },
+  {
+    "product": "GeForce RTX 5060 Ti 16GB",
+    "price": 490.0,
+    "base_price": 429.0,
+    "change": 14.22
+  },
+  {
+    "product": "GeForce RTX 5060",
+    "price": 259.0,
+    "base_price": 259.0,
+    "change": 0.0
+  },
+  {
+    "product": "GeForce RTX 5050",
+    "price": 244.0,
+    "base_price": 244.0,
+    "change": 0.0
+  },
+  {
+    "product": "Radeon RX 9070 XT",
+    "price": 800.0,
+    "base_price": 600.0,
+    "change": 33.33
+  },
+  {
+    "product": "Radeon RX 9070",
+    "price": 650.0,
+    "base_price": 550.0,
+    "change": 18.18
+  },
+  {
+    "product": "Radeon RX 9060 XT",
+    "price": 269.0,
+    "base_price": 269.0,
+    "change": 0.0
+  }
+]
