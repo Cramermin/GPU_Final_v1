@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import json
 from datetime import datetime, timedelta
 import os
@@ -83,10 +84,9 @@ def generate_price_history():
     print(f"已生成 {len(price_history)} 个显卡的历史价格数据")
 
 if __name__ == "__main__":
-    import numpy as np
-    
     # 确保输出目录存在
     os.makedirs('gpu-price-site/data', exist_ok=True)
+    os.makedirs('data', exist_ok=True)  # 确保数据目录存在
     
     # 转换数据
     convert_gpu_prices()
